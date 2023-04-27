@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('networking-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  margin: 0 10 30px 0;
+  font-size: 25px;
+  font-weight: 500;
+  color: #555;
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#car-animation {
+  width: 415px;
+  height: 415px;
+  display: block;
+  margin-left: 50px;
+  animation: drive 5s linear infinite;
+}
+
+
